@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Greenfield College - Premium Education</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+    <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+    <svg class="moon-icon" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+    </svg>
+  </div>
+
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <div class="logo">
+        <div class="logo-mark">G</div>
+        <span>Greenfield</span>
+      </div>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="active">Home</a>
+        <a href="pages/about.html">About</a>
+        <a href="pages/programs.html">Programs</a>
+        <a href="pages/campus.html">Campus</a>
+        <a href="pages/admissions.html">Admissions</a>
+        <a href="pages/contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="pages/admissions.html" class="btn btn-primary">Apply Now</a>
+      </div>
+
+      <button class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-background">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+      </div>
+      
+      <div class="container hero-content">
+        <div class="hero-text">
+          <div class="badge badge-fade-in">
+            <span class="badge-dot"></span>
+            Excellence in Higher Education
+          </div>
+          
+          <h1 class="hero-title fade-in-up" style="animation-delay: 0.1s">
+            Build Your <span class="gradient-text">Future</span> at Greenfield College
+          </h1>
+          
+          <p class="hero-subtitle fade-in-up" style="animation-delay: 0.2s">
+            Empowering tomorrow's leaders with world-class education, cutting-edge research, 
+            and a vibrant community of innovators and changemakers.
+          </p>
+
+          <div class="hero-buttons fade-in-up" style="animation-delay: 0.3s">
+            <a href="pages/programs.html" class="btn btn-primary btn-lg">Explore Programs</a>
+            <a href="pages/about.html" class="btn btn-secondary btn-lg">Learn More</a>
+          </div>
+
+          <div class="hero-stats fade-in-up" style="animation-delay: 0.4s">
+            <div class="stat">
+              <strong>18K+</strong>
+              <span>Students</span>
+            </div>
+            <div class="stat">
+              <strong>95%</strong>
+              <span>Placement Rate</span>
+            </div>
+            <div class="stat">
+              <strong>#12</strong>
+              <span>Global Rank</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual fade-in-right" style="animation-delay: 0.3s">
+          <div class="image-card">
+            <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=600&q=80" alt="Students studying" />
+            <div class="floating-stat">
+              <div class="stat-number">4.8</div>
+              <div class="stat-label">★ Student Rating</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+      <div class="container">
+        <div class="section-header center">
+          <h2 class="section-title">Why Choose Greenfield?</h2>
+          <p class="section-subtitle">Experience education reimagined for the future</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card slide-in-up">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L15.09 8.26H22L17.09 12.74L19.09 19L12 14.46L4.91 19L6.91 12.74L2 8.26H8.91L12 2Z"></path>
+              </svg>
+            </div>
+            <h3>World-Class Faculty</h3>
+            <p>Learn from leading experts and researchers with decades of industry experience and academic excellence.</p>
+          </div>
+
+          <div class="feature-card slide-in-up" style="animation-delay: 0.1s">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect>
+                <path d="M16 3v4"></path>
+                <path d="M8 3v4"></path>
+                <path d="M2 11h20"></path>
+              </svg>
+            </div>
+            <h3>Cutting-Edge Campus</h3>
+            <p>State-of-the-art facilities, modern labs, innovation hubs, and digital-first learning environments.</p>
+          </div>
+
+          <div class="feature-card slide-in-up" style="animation-delay: 0.2s">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"></path>
+              </svg>
+            </div>
+            <h3>Vibrant Community</h3>
+            <p>Engage in 100+ clubs, cultural events, sports, and networking that shape lifelong friendships.</p>
+          </div>
+
+          <div class="feature-card slide-in-up" style="animation-delay: 0.3s">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <h3>Career Support</h3>
+            <p>Dedicated placement cell, internships with top companies, and mentorship from industry leaders.</p>
+          </div>
+
+          <div class="feature-card slide-in-up" style="animation-delay: 0.4s">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L22 8v6c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V8l10-6z"></path>
+              </svg>
+            </div>
+            <h3>Global Recognition</h3>
+            <p>Ranked among top institutions worldwide with partnerships across 50+ countries and universities.</p>
+          </div>
+
+          <div class="feature-card slide-in-up" style="animation-delay: 0.5s">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+              </svg>
+            </div>
+            <h3>Scholarship Opportunities</h3>
+            <p>Merit-based and need-based aid making quality education accessible to deserving students worldwide.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programs Preview -->
+    <section class="programs-preview">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Flagship Programs</h2>
+            <p class="section-subtitle">Choose from diverse fields of study</p>
+          </div>
+          <a href="pages/programs.html" class="btn btn-secondary">View All Programs</a>
+        </div>
+
+        <div class="programs-grid">
+          <div class="program-card hover-lift">
+            <div class="program-image">
+              <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=500&q=80" alt="Computer Science" />
+            </div>
+            <div class="program-content">
+              <div class="program-badge">B.Tech</div>
+              <h3>Computer Science & Engineering</h3>
+              <p>Master AI, data science, cloud computing, and software development with hands-on projects.</p>
+              <a href="pages/programs.html#cs" class="arrow-link">Learn more →</a>
+            </div>
+          </div>
+
+          <div class="program-card hover-lift" style="animation-delay: 0.1s">
+            <div class="program-image">
+              <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=500&q=80" alt="Business" />
+            </div>
+            <div class="program-content">
+              <div class="program-badge">BBA</div>
+              <h3>Business Administration</h3>
+              <p>Build leadership, strategy, and entrepreneurship skills through real-world case studies.</p>
+              <a href="pages/programs.html#bba" class="arrow-link">Learn more →</a>
+            </div>
+          </div>
+
+          <div class="program-card hover-lift" style="animation-delay: 0.2s">
+            <div class="program-image">
+              <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=500&q=80" alt="Engineering" />
+            </div>
+            <div class="program-content">
+              <div class="program-badge">B.Tech</div>
+              <h3>Mechanical Engineering</h3>
+              <p>Design, innovate, and build solutions for tomorrow's mechanical and robotic challenges.</p>
+              <a href="pages/programs.html#me" class="arrow-link">Learn more →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item counter-animate">
+            <div class="stat-value" data-target="18000">18K+</div>
+            <div class="stat-name">Active Students</div>
+          </div>
+          <div class="stat-item counter-animate" style="animation-delay: 0.1s">
+            <div class="stat-value" data-target="95">95%</div>
+            <div class="stat-name">Placement Rate</div>
+          </div>
+          <div class="stat-item counter-animate" style="animation-delay: 0.2s">
+            <div class="stat-value" data-target="120">120+</div>
+            <div class="stat-name">Expert Faculty</div>
+          </div>
+          <div class="stat-item counter-animate" style="animation-delay: 0.3s">
+            <div class="stat-value" data-target="50">50+</div>
+            <div class="stat-name">Global Partners</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+      <div class="container">
+        <div class="section-header center">
+          <h2 class="section-title">Success Stories</h2>
+          <p class="section-subtitle">Hear from our alumni and current students</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              ★ ★ ★ ★ ★
+            </div>
+            <p class="testimonial-text">
+              "Greenfield transformed my career. The mentorship, internship opportunities, and world-class faculty 
+              prepared me perfectly for leading roles at top tech companies. Truly grateful!"
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80" alt="Sarah" />
+              </div>
+              <div>
+                <div class="author-name">Sarah Chen</div>
+                <div class="author-title">Software Engineer, Google</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card" style="animation-delay: 0.1s">
+            <div class="testimonial-stars">
+              ★ ★ ★ ★ ★
+            </div>
+            <p class="testimonial-text">
+              "The campus community at Greenfield is unmatched. I made lifelong friends, launched my startup 
+              with support from professors, and learned so much beyond textbooks."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Alex" />
+              </div>
+              <div>
+                <div class="author-name">Alex Kumar</div>
+                <div class="author-title">Founder, TechStart Ventures</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card" style="animation-delay: 0.2s">
+            <div class="testimonial-stars">
+              ★ ★ ★ ★ ★
+            </div>
+            <p class="testimonial-text">
+              "Exceptional education, incredible facilities, and supportive faculty. Greenfield gave me 
+              the foundation to excel in my MBA and career as a business consultant."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&q=80" alt="Maya" />
+              </div>
+              <div>
+                <div class="author-name">Maya Patel</div>
+                <div class="author-title">Senior Consultant, McKinsey</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container cta-content">
+        <div class="cta-text">
+          <h2>Ready to Transform Your Future?</h2>
+          <p>Join thousands of students who are building remarkable careers at Greenfield College.</p>
+        </div>
+        <a href="pages/admissions.html" class="btn btn-primary btn-lg">Start Your Application</a>
+      </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events-section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Upcoming Events</h2>
+            <p class="section-subtitle">Join us for exciting campus activities</p>
+          </div>
+          <a href="pages/campus.html" class="btn btn-secondary">View Calendar</a>
+        </div>
+
+        <div class="events-grid">
+          <div class="event-card">
+            <div class="event-date">
+              <span class="date-day">15</span>
+              <span class="date-month">Apr</span>
+            </div>
+            <div class="event-content">
+              <h3>Annual Tech Summit 2026</h3>
+              <p>Connect with 50+ leading tech companies, startups, and innovators from around the world.</p>
+              <a href="#" class="arrow-link">Register →</a>
+            </div>
+          </div>
+
+          <div class="event-card" style="animation-delay: 0.1s">
+            <div class="event-date">
+              <span class="date-day">22</span>
+              <span class="date-month">Apr</span>
+            </div>
+            <div class="event-content">
+              <h3>Cultural Festival</h3>
+              <p>Celebrate diversity with performances, food, art exhibitions, and cultural showcases.</p>
+              <a href="#" class="arrow-link">Learn more →</a>
+            </div>
+          </div>
+
+          <div class="event-card" style="animation-delay: 0.2s">
+            <div class="event-date">
+              <span class="date-day">28</span>
+              <span class="date-month">Apr</span>
+            </div>
+            <div class="event-content">
+              <h3>Career Fair</h3>
+              <p>Direct interactions with HR teams from Fortune 500 companies and innovative startups.</p>
+              <a href="#" class="arrow-link">Apply now →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section">
+      <div class="container">
+        <div class="newsletter-content">
+          <h2>Stay Connected</h2>
+          <p>Get updates on admissions, events, and campus news delivered to your inbox.</p>
+          <form class="newsletter-form" id="newsletter-form">
+            <input type="email" placeholder="Enter your email" required />
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-section">
+        <div class="footer-logo">
+          <div class="logo-mark">G</div>
+          <span>Greenfield College</span>
+        </div>
+        <p>Empowering minds, inspiring futures, building leaders of tomorrow.</p>
+      </div>
+
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="pages/about.html">About Us</a></li>
+          <li><a href="pages/programs.html">Programs</a></li>
+          <li><a href="pages/admissions.html">Admissions</a></li>
+          <li><a href="pages/campus.html">Campus Life</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#">Academic Calendar</a></li>
+          <li><a href="#">Faculty Directory</a></li>
+          <li><a href="#">Library Portal</a></li>
+          <li><a href="#">Student Portal</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <ul>
+          <li>📍 45 University Ave, Greenfield City</li>
+          <li>📞 +1 (555) 123-4567</li>
+          <li>✉️ hello@greenfield.edu</li>
+          <li>🌐 www.greenfield.edu</li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a href="#" title="Facebook">f</a>
+          <a href="#" title="Twitter">𝕏</a>
+          <a href="#" title="Instagram">📷</a>
+          <a href="#" title="LinkedIn">in</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Greenfield College. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Accessibility</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
